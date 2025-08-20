@@ -1,0 +1,51 @@
+#loginSystem td{
+    padding: 10px;
+}
+#loginForm {
+    width: 95%;
+}
+
+#loginForm td {
+    padding: 8px;
+}
+
+#loginForm input {
+    border: black solid 3px;
+    width: 95%;
+    height: 40px;
+    background-color: transparent;
+    font-size: 13pt;
+    padding: 5px;
+}
+
+#loginForm input::placeholder {
+    color: #00000088;
+}
+
+#loginForm button {
+    border: none;
+    background-color: transparent;
+    font-size: 14pt;
+    font-weight: 900;
+}
+#loginedTbl {
+    width: 95%;
+}
+#loginedTbl td {
+    padding: 5px;
+}
+#loginedTbl .imgTd {
+    width: 80px;
+}
+#loginedTbl img {
+    max-width: 75px;
+}
+#loginedTbl .idTd {
+    font-size: 14pt;
+    font-weight: 900;
+}
+#loginedTbl button {
+    padding: 5px;
+    background-color: transparent;
+    font-weight: 900;
+}

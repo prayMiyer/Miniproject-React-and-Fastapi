@@ -1,0 +1,164 @@
+#snsWriteArea {
+    position: fixed;
+    width: 100%;
+    bottom: 50px;
+    left: 0px;
+}
+
+#snsWriteArea2 {
+    background-color: #ffffffaa;
+    font-family: "djdg";
+}
+#snsWriteArea2 input {
+    border: none;
+    background-color: transparent;
+    font-family: "djdg";
+    font-size: 13pt;
+}
+#snsWriteArea2 .searchInput {
+    width: 600px;
+    height: 30px;
+}
+
+#snsWriteArea2 textarea {
+    width: 600px;
+    height: 80px;
+    border: none;
+    background-color: transparent;
+    font-family: "djdg";
+    font-size: 13pt;
+    padding: 7px;
+}
+#snsWriteArea2 img {
+    width: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.aSNSPost {
+    width: 900px;
+    margin-bottom: 20px;
+    transition: all 3s ease-out;
+}
+.aSNSPost:hover {
+    box-shadow: 0px 0px 30px white;
+}
+.aSNSPost .titleTd {
+    border-bottom: black solid 0.5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    border-radius: 7px 0px 0px 0px;
+}
+.aSNSPost .idTd {
+    background-color: #f8f8f8;
+    padding-left: 10px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px -0px 3px black;
+}
+.aSNSPost .idTd .folder {
+    width: 15px;
+}
+.aSNSPost .idTd .id {
+    padding-left: 7px;
+    padding-bottom: 6px;
+    font-weight: 900;
+}
+.aSNSPost .titleBlankTd {
+    border-bottom: black solid 0.5px;
+    padding-top: 7px;
+    border-radius: 0px 7px 0px 0px;
+}
+.aSNSPost .titleBlankTd img {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.aSNSPost .txtArea {
+    background-color: #ffffffcc;
+    border-radius: 0px 0px 7px 7px;
+    font-family: "djdg";
+}
+.aSNSPost .txtArea .txtArea2 {
+    width: 100%;
+    white-space: pre-wrap;
+}
+.aSNSPost .psaTd {
+    width: 150px;
+    border-right: black solid 0.5px;
+}
+.aSNSPost .psa {
+    max-width: 130px;
+}
+.aSNSPost .txt {
+    padding: 20px;
+}
+.aSNSPost .txt2 {
+    transition: all 1s ease-out;
+}
+.aSNSReply {
+    margin-bottom: 3px;
+}
+.aSNSReply input {
+    width: 550px;
+    border: none;
+    border-bottom: black solid 2px;
+    background-color: transparent;
+    padding: 3px;
+    font-size: 13pt;
+}
+.aSNSReply button {
+    border: none;
+    background-color: transparent;
+}
+#snsPostBlankArea {
+    height: 180px;
+}
+#snsPageL {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+}
+#snsPageR {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+}
+#snsPageL:hover,
+#snsPageR:hover {
+    background-color: #ffffff77;
+}
+#snsPostUpdateArea {
+    position: fixed;
+    background-color: #000000aa;
+    width: 100%;
+    height: 100%;
+}
+
+#snsPostUpdateForm{
+    border: white solid 3px;
+}
+#snsPostUpdateForm td{
+    padding: 10px;
+}
+#snsPostUpdateForm img{
+    cursor: pointer;
+}
+#snsPostUpdateForm .id{
+    color:white;
+    font-weight: 900;
+    padding-left: 10px;
+}
+#snsPostUpdateForm textarea{
+    border: none;
+    background-color: transparent;
+    width: 400px;
+    height: 150px;
+    color:white;
+    font-family: "djdg";
+    font-size: 13pt;
+}

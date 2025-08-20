@@ -1,0 +1,61 @@
+#signUpForm {
+    width: 520px;
+    font-family: "djdg";
+    font-size: 16pt;
+    color: white;
+}
+
+#signUpForm td {
+    padding: 5px;
+}
+
+#signUpForm .textTypeInput {
+    width: 500px;
+    height: 40px;
+    border: white solid 3px;
+    background-color: #ffffff88;
+    font-size: 16pt;
+    color: white;
+    padding: 7px;
+}
+
+#signUpForm input::placeholder {
+    color: #ffffff88;
+}
+
+#signUpForm .juminNoInput1 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+}
+#signUpForm .juminNoInput2 {
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+}
+#signUpForm .fileTypeInput {
+    width: 335px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 16pt;
+    color: white;
+    padding: 2px;
+}
+#signUpForm button {
+    border: none;
+    background-color: transparent;
+    font-size: 18pt;
+    font-weight: 900;
+    width: 500px;
+    height: 60px;
+    color: white;
+}
